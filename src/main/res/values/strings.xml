@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">cardview</string>
+    <string name="button_like">Like</string>
+    <string name="button_comment">comment</string>
 </resources>
