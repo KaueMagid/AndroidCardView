@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 
 import com.kauemagid.cardview.R;
+import com.kauemagid.cardview.adapters.PostsAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,5 +25,9 @@ public class MainActivity extends AppCompatActivity {
         recyclerViewPosts.setLayoutManager(layoutManager);
 
         //Define Adapter
+        PostsAdapter adapter = new PostsAdapter();
+        recyclerViewPosts.setAdapter(adapter);
+
+
     }
 }
